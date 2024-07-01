@@ -333,7 +333,12 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 25px;
+}
+
+.avatar-box img {
+  border-radius: 30px;
+  width: 180px;
 }
 
 .info-content .name {
@@ -829,6 +834,14 @@ main {
   line-height: 1.6;
 }
 
+.timeline-text li {
+  list-style: circle;
+}
+
+ul.timeline-text {
+  padding-left: 20px;
+}
+
 
 /**
  * skills 
@@ -852,6 +865,7 @@ main {
   color: var(--light-gray);
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
+  min-width: 150px;
 }
 
 .skill-progress-bg {
@@ -1835,7 +1849,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { width: 190px; }
 
   .info-content .name {
     white-space: nowrap;
